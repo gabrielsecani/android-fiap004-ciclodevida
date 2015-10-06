@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fiap.rm72468.ciclodevida.test">
+
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="br.com.fiap.rm72468.ciclodevida"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for br.com.fiap.rm72468.ciclodevida"/>
+</manifest>
